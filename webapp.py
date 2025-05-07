@@ -34,6 +34,3 @@ for index, item in enumerate(todos):
 
 #creates the input box for to do and add a function call to add_todo when value in it changes
 st.text_input(key='new_todo', label = "", placeholder = "Add a To Do here...", on_change = add_todo)
-
-print("Hello")
-st.session_state
